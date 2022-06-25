@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #4697da;
+     background-color: #4697da; 
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
@@ -19,12 +19,15 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* background-color: deepskyblue; */
+    background-color: deepskyblue; 
     width: 100vw;
     height: 3vw;
     /* height: 15vh;  */
 }
-
+button{
+    background-color: #48aded;
+    border-color: #4697da;
+}
 .location {
     width: 108%;
     display: flex;
@@ -70,7 +73,6 @@ nav {
 
 .cloud {
     width: 100%;
-
 }
 
 .inner-container {
@@ -79,9 +81,12 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 28vh;
+    height: 30vh;
+    /* background-color: blueviolet; */
 }
-
+/* .darkmode: cloud-container{
+    background-color: black;
+} */
 .cloud-container {
     background-color: #48aded;
     display: flex;
@@ -95,5 +100,36 @@ nav {
 
 .weather {
     width: 80px;
+}
+
+.timer{
+width: 250px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+@media (max-width:768px) {
+      nav{
+      height: 40px;
+    }  
+     .toggle-on{
+        font-size: 100%;
+     }
+    .timer{
+      display:none;
+    }
+    .cloud{
+        padding-top: 15%;
+        width: 80%;
+    }
+    .cloud-container{
+    
+      width: 25%;
+    }
+    .inner-container{
+        margin-top:5%;
+    }
 
 }

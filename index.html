@@ -12,7 +12,7 @@
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- <script src="https://kit.fontawesome.com/a5a7d8c801.js" crossorigin="anonymous"></script> -->
+
 </head>
 
 <body>
@@ -21,54 +21,61 @@
             <div class="top-bar">
                 <a><i class="fa-solid fa-align-justify"></i></a>
             </div>
+
+            <div class="timer">
+                <p class="timestamp-sunrise"></p>
+                <p class="timestamp-sunset"></p>
+            </div>
+
             <div class="area-port">
                 <p class="location">
-                    <a class="location-pointer"><i class="fa-solid fa-location-dot"></i></a> <span id="city">lagos</span>,Nigeria
+                    <a class="location-pointer"><i class="fa-solid fa-location-dot"></i></a> <span
+                        id="city">lagos</span>,Nigeria
                 </p>
-                
+
             </div>
             <div class="side-btn">
                 <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="toggle dark mode">
-                   <a class="toggle-on"><i class="fas fa-toggle-on"></i></a>
+                    <a class="toggle-on"><i class="fas fa-toggle-on"></i></a>
                 </button>
 
             </div>
-            <!-- <img src="images/icons8-toggle-66 (1).png" alt="toggle-btn"> -->
+
         </nav>
 
         <div class="weather-report">
             <img class="cloud" src="images/summer-rain.svg" alt="cloud">
-            
+            <!-- <div class="cloudsss"></div> -->
             <h2 id="degree">
                 290⁰</h2>
-                <h4 id="weather-description"></h4>
-            <!-- <p id="">moderate rain</p> -->
+            <h4 id="weather-description"></h4>
+
         </div>
 
         <div class="inner-container">
 
-            <div class="cloud-container">
+            <!-- <div class="cloud-container">
                 <img class="weather" src="images/sun.svg" alt="summer-svg" >
-                <h3 class="sun"></h3>
-                <p class="climate">Sun</p>
-            </div>
+                <h3 class="cloudy"></h3>
+                <p class="climate"></p>
+            </div> -->
 
             <div class="cloud-container">
                 <img class="weather" src="images/rain.svg" alt="rain-svg">
-                <h3 class="wind">km/h</h3>
+                <h3 class="wind"></h3>
                 <p class="climate">Wind</p>
             </div>
 
             <div class="cloud-container">
-                <img class="weather" src="images/water-droplet.svg" alt="water-svg" >
+                <img class="weather" src="images/water-droplet.svg" alt="water-svg">
                 <h3 class="humidity"></h3>
                 <p class="climate">Humidity</p>
             </div>
-            
+
             <div class="cloud-container">
-             <img class="weather" src="images/pressure-svgrepo-com.svg" alt="pressure-svg">
-             <h3 class="pressure"></h3>
-             <p class="climate">Pressure</p>
+                <img class="weather" src="images/pressure-svgrepo-com.svg" alt="pressure-svg">
+                <h3 class="pressure"></h3>
+                <p class="climate">Pressure</p>
             </div>
         </div>
     </div>
